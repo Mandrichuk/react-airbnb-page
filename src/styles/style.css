@@ -1,0 +1,95 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
+}
+
+* {
+  margin: 0;
+}
+
+header {
+  display: flex;
+  flex-direction: row;
+  justify-content: left;
+  align-items: center;
+
+  padding-top: 16px;
+  padding-bottom: 16px;
+
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+
+}
+
+.bold-text {
+  font-weight: bold;
+} 
+
+.airbnb-icon {
+  margin-left: 30px;
+  margin-top: 5px;
+  height: 25px;
+  object-fit: cover;
+}
+
+.main,
+.footer {
+  margin-left: 25px;
+  margin-top: 20px;
+} 
+
+.main__about-container {
+  font-size: 2.2rem;
+  font-weight: bold;
+
+  margin-top: 25px;
+}
+
+.about-text {
+  font-size: 1rem;
+  font-weight: 500;
+
+  width: 300px;
+  margin-top: 10px;
+}
+
+.footer {
+  margin-top: 50px;
+  margin-bottom: 100px;
+}
+
+.footer__recomendation-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.footer__details-container {
+  font-weight: 300;
+  font-size: 12px; 
+}
+
+.footer__activity-container {
+  display: flex;
+  flex-direction: column;
+  align-items: left;
+  
+  width: 175px;
+  margin-right: 20px;
+}
+
+.activity-image {
+  width: 175px;
+  height: 235px;
+  object-fit: cover;
+}
+
+.rating-text,
+.location-text {
+  color: #918E9B;
+  margin-right: 3px;
+}
+
+.footer__title-container,
+.footer__rating-location-container {
+  margin-bottom: 4px;
+}
