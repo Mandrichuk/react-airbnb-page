@@ -9,7 +9,8 @@ export function CreateHeader() {
     <a href='https://airbnb.com'>
       <img className='airbnb-icon' src={AirBnbIcon} />
     </a>
-  </header>);
+  </header>
+  );
 
   return header;
 }
