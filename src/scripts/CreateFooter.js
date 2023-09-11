@@ -11,13 +11,7 @@ export function CreateFooter() {
   const activities = Data.map((activity) => (
     <CreateActivity 
       key={activity.id}
-      imgPreview={activity.coverImg}
-      imgStar={starIcon}
-      rating={activity.stats.rating}
-      ratingAmount={activity.stats.reviewCount}
-      location={activity.location}
-      title={activity.title}
-      price={activity.price}
+      {...activity}
     />
   ));
 
